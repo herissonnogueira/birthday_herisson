@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aniversário Herisson</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Martian+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.scss">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <header class="hero">
+        <div class="container">
+            <p class="hero__text">
+                Você está convidado para o meu aniversário! Falta exatamente <span id="contador"></span>
+            </p>
+            <div class="infos-bar">
+                <ul class="infos-bar__infos">
+                    <li class="infos-bar__infos__item">
+                        <b>Localização</b>
+                        Cidade JavaScript - Bairro Sass
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Quando</b>
+                        14/02/2024 às 00hrs
+                    </li>
+                </ul>
+                <a href="#" class="button button--primary">
+                    Confirme sua presença!
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section class="birthday birthday--convite">
+        <div class="container" data-aos="fade-right">
+            <div class="birthday__details">
+                <h2 class="birthday__details__title">Você está Convidado</h2>
+                <p class="birthday__details__description">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum voluptatem quia optio eligendi praesentium ad adipisci temporibus, corporis animi placeat explicabo, amet repellendus fugit minus at labore. Dolores, accusantium vitae.
+                </p>
+            </div>
+            <img class="birthday__image" src="./images/convite.jpg" alt="Vela Estrela">
+        </div>
+    </section>
+
+    <section class="birthday birthday--doces birthday--image-left">
+        <div class="container" data-aos="fade-left">
+            <div class="birthday__details">
+                <h2 class="birthday__details__title">Diversas opções de doces</h2>
+                <p class="birthday__details__description">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum voluptatem quia optio eligendi praesentium ad adipisci temporibus, corporis animi placeat explicabo, amet repellendus fugit minus at labore. Dolores, accusantium vitae.
+                </p>
+            </div>
+            <img class="birthday__image" src="./images/doces.jpg" alt="Doces">
+        </div>
+    </section>
+
+    <section class="birthday birthday--games">
+        <div class="container" data-aos="fade-right">
+            <div class="birthday__details">
+                <h2 class="birthday__details__title">Espaço Gamer</h2>
+                <p class="birthday__details__description">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum voluptatem quia optio eligendi praesentium ad adipisci temporibus, corporis animi placeat explicabo, amet repellendus fugit minus at labore. Dolores, accusantium vitae.
+                </p>
+            </div>
+            <img class="birthday__image" src="./images/games.jpg" alt="Games">
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
