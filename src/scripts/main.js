@@ -25,3 +25,8 @@ const contaAsHoras = setInterval(function() {
         document.getElementById('contador').innerHTML = 'Birthday expirado';
     }
 }, 1000)
+
+const button = document.querySelector('.button--primary');
+button.addEventListener('click', function() {
+    alert("Presença confirmada com sucesso. Te espero lá!");
+});

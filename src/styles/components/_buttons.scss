@@ -7,10 +7,11 @@
     text-decoration: none;
     text-align: center;
     white-space: nowrap;
+    border-radius: 5px;
 
     &--primary {
         color: variables.$textColor;
-        background-color: variables.$color5;
+        background-color: variables.$buttonColor;
     }
 
     @media (max-width: 640px) {
